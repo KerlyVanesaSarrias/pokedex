@@ -1,0 +1,52 @@
+.pokes_welcome {
+    color: red;
+}
+
+.pokes_container_welcome {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 3em;
+    margin-top: 2em;
+
+}
+
+.container_search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-bottom: 4em;
+    gap: 1em;
+    width: 100%;
+}
+
+.pokes_input {
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    height: 50px;
+    width: 40em;
+
+
+}
+.pokes_button {
+    border: none;
+    width: 8em;
+    font-weight: 600;
+    font-size: inherit;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    height: 50px;
+    background-color:  #D93F3F;
+    color: white;
+
+    &:hover {
+        filter: brightness(1.2);
+
+    }
+}
+
+.pokes_header {
+    margin:0;
+}
+

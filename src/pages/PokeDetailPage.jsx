@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import useFetch from "../hooks/useFetch"
 import {useParams} from "react-router-dom"
+import HeaderPages from "../components/HeaderPages"
 
 
 const PokeDetailPage = () => {
@@ -16,12 +17,15 @@ const PokeDetailPage = () => {
   console.log(pokemon)
 
   return (
-    <div>
-      <header>
-        <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
-        <h2>{pokemon?.name}</h2>
-      </header>
-    </div>
+    <>
+      <HeaderPages/>
+      <div>
+        <header>
+          <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
+          <h2>{pokemon?.name}</h2>
+        </header>
+      </div>
+    </>
   )
 }
 
