@@ -5,7 +5,7 @@ const ListPokemons = ({ pokemons }) => {
     return (
         <div>
             {
-                pokemons?.results.map(pokeInfo => (
+                pokemons?.map(pokeInfo => (
                     <PokeCard
                         key={pokeInfo.url}
                         pokeInfo={pokeInfo}
