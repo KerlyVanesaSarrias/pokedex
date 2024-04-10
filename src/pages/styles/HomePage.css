@@ -1,3 +1,65 @@
 .home_title {
-    width: 400px ;
+  width: 15em;
+  margin-bottom: 1em;
+}
+.home_line_one {
+  background-color: #dd1a1a;
+  width: 100%;
+  height: 3em;
+}
+
+.home_line_two {
+  background-color: #222020;
+  height: 3.8em;
+}
+
+.home_sphere1 {
+  background-color: white;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  position: absolute;
+  padding: 0.5em;
+  aspect-ratio: 1;
+  margin-left: 50%;
+  transform: translateY(-30%);
+  border: 0.5em solid;
+  border-color: black;
+}
+.home_sphere2 {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  position: absolute;
+  border: 0.5em solid;
+  border-color: black;
+  background-color: #222020;
+}
+
+.home_hi {
+  color: #dd1a1a;
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 0.2em;
+}
+.home_information {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.home_container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_content_lines {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }

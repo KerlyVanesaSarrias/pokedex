@@ -2,6 +2,7 @@ import { useRef } from "react"
 import { setTrainer } from "../../store/states/trainer.slice"
 import {useDispatch} from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import './style/Form Trainer.css'
 
 const FormTrainer = () => {
 
@@ -20,8 +21,8 @@ const FormTrainer = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input ref={trainerInput} type="text" />
-            <button>Lets Start </button>
+            <input className="trainer_input" ref={trainerInput} type="text" />
+            <button className="trainer_button">Lets Start </button>
         </form>
     )
 }

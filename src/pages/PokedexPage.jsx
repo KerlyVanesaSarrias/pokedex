@@ -29,8 +29,6 @@ const PokedexPage = () => {
       return poke.name.includes(pokeSearch)
   })
 
-  console.log(pokemonsFiltered)
-
   useEffect(() => {
     if(typeSelected ==='allPokemons'){
     getPokemons() 
