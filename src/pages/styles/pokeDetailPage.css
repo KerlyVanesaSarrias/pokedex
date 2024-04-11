@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail_container {
+  box-shadow: 0px 2px 16px 0px #00000026;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  margin-top: 35em;
+  transform: translate(-50%, -50%);
+  min-width: 500px;
+}
+
+.detail_img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -30%;
+}
+
+.detail_header {
+  width: 100%;
+  height: 12em;
+  position: relative;
+  border-radius: 0.4em;
+  display: flex;
+  justify-content: center;
+}
+.detail_id {
+  display: flex;
+  justify-content: center;
+}
+
+.detail_value_id {
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(187, 187, 187);
+  font-size: 1.5em;
+
+}
+
+.detail_name {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+.detail_wh,
+.detail_t_a {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+}
+.detail_weight,
+.detail_height {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+.wh_title {
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+.wh_value {
+  font-weight: 600;
+}
+
+.detail_types {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3em;
+  align-items: center;
+}
+
+.t_a_title {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.detail_abilities {
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.type_value,
+.detail_value {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.ability_value {
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: gray;
+    padding: 8px;
+}
+
+.type_value {
+  color: white;
+  padding: 0.5em;
+  display: flex;
+  gap: 8px;
+}
+
+.type_item {
+    background-color: rgb(98, 98, 228);
+    padding: 8px;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.detail_box_stat {
+  width: 80%;
+}
+
+.detail_hr {
+  --margin-y: 0.8em;
+  margin-top: var(--margin-y);
+  margin-bottom: var(--margin-y);
+  border-top: 1px solid #ccc5;
+  margin-inline: 2em;
+}
+
+.details_moves {
+  box-shadow: 0px 2px 16px 0px #00000026;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  margin-top: 85em;
+  transform: translate(-50%, -50%);
+  min-width: 500px;
+  margin-bottom: 1;
+}
+
+.content_moves {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-left: 5em;
+    margin: 0;
+}
+
+.moves_name {
+padding: 8px;
+border-radius: 10px;
+background: #E5E5E5;
+}
+
+.moves_title {
+    font-size: 2em;
+}
+
+.moves_container_title {
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+}

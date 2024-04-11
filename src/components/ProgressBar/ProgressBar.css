@@ -1,0 +1,30 @@
+.container_progress_bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:1em ;
+}
+
+.container_progress_bar .progress_bar_info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container_progress_bar .progress_bar {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 34px;
+    border-radius: 4px;
+}
+
+.progress_bar .progress_bar_percentage {
+    display: block;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    border-radius: 4px;
+
+}
